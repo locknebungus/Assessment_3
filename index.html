@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src=images\Logo_192x192.png></a>
+        <nav class="navigation">
+            <a href="TheGame">The Game</a>
+            <a href="#"> Contact Us</a>
+        </nav>
+    </header>
+
+    <section class="parallax">
+        <img src="images\boxman_vector_04.png" id="vector4">
+        <img src="images\boxman_vector_03.png" id="vector3">
+        <img src="images\boxman_vector_02.png" id="vector2">
+        <img src="images\boxman_vector_01.png" id="vector1">
+    </section>
+
+    <section class="TheGame">
+        <h2>The Game</h2>
+        <p>Control the titular hero through a fantastical handcrafted world. 
+            Explore a variety of different landscapes as you jump, swing, pull and tear your way to victory. 
+            Do you have what it takes to rescue your friend and uncover the mystery in BOXMAN!
+          </p>
+          <div class="carousel">
+            <sl-carousel autoplay loop pagination>
+              <sl-carousel-item>
+                <img
+                  alt=""
+                  src="images\Boxman_render_promo8.jpg"
+                />
+              </sl-carousel-item>
+              <sl-carousel-item>
+                <img
+                  alt=""
+                  src="images\Boxman_render_promo2.png"
+                />
+              </sl-carousel-item>
+              <sl-carousel-item>
+                <img
+                  alt=""
+                  src="images\Boxman_render_promo4.jpg"
+                />
+              </sl-carousel-item>
+              <sl-carousel-item>
+                <img
+                  alt=""
+                  src="images\Boxman_render_promo3.jpg"
+                />
+              </sl-carousel-item> 
+              <sl-carousel-item>
+                <img
+                  alt=""
+                  src="images\Boxman_render_promo5.jpg"
+                />
+              </sl-carousel-item>
+            </sl-carousel>
+          </div>
+          <p> 
+            Boxman is a third-person puzzle platformer remeniscent of titles such as Little Big Planet and Tearaway. 
+            Coming soon to PC, Xbox, Playstation and Switch. Add to your Steam wishlist today and stay tuned for our demo.
+          </p>
+    </section>
+
+    <sl-divider></sl-divider>
+
+    <section class="ContactUs">
+        <h2>Contact Us</h2>
+        <p>
+          Get in touch with us, we'd love to here what you think about the game. 
+          Fill out the contact form below and we will respond as quickly as possible by email.
+        </p>
+        <sl-textarea placeholder="email address"></sl-textarea>
+        <sl-textarea placeholder="put your message here"></sl-textarea>
+        <sl-button>send message</sl-button>
+    </section>
+
+    <section class="bouncingtext">
+        <span>C</span>
+        <span>O</span>
+        <span>M</span>
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+        <span>_</span>
+        <span>S</span>
+        <span>O</span>
+        <span>O</span>
+        <span>N</span>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
